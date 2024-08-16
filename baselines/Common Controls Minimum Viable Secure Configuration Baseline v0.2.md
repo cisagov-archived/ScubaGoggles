@@ -1195,7 +1195,11 @@ Early Access Apps Service Status SHOULD be set to OFF for everyone
 - _Last modified:_ August 7, 2024
 
 - MITRE ATT&CK TTP Mapping
-  - Pending
+  - [T1199: Trusted Relationship](https://attack.mitre.org/techniques/T1199/)
+  - [T1204: User Execution](https://attack.mitre.org/techniques/T1204/)
+    - [T1204:001: User Execution: Malicious Link](https://attack.mitre.org/techniques/T1204/001/)
+    - [T1204:002: User Execution: Malicious File](https://attack.mitre.org/techniques/T1204/002/)
+    - [T1204:003: User Execution: Malicious Image](https://attack.mitre.org/techniques/T1204/003/)
 
 ### Resources
 -	[GWS Admin Help \| Turn Early Access apps on or off for users](https://apps.google.com/supportwidget/articlehome?hl=en&article_url=https%3A%2F%2Fsupport.google.com%2Fa%2Fanswer%2F13515709%3Fhl%3Den&assistant_id=generic-unu&product_context=13515709&product_name=UnuFlow&trigger_context=a)
