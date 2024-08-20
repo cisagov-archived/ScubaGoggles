@@ -26,6 +26,7 @@ This baseline is based on Google documentation and addresses the following:
 - [Data Regions](#15-data-regions-and-storage)
 - [Additional Google Services](#16-additional-google-services)
 - [Multi-Party Approvals](#17-multi-party-approval)
+- [Early Access Apps](#18-early-access-apps)
 
 ## Assumptions
 
@@ -1189,7 +1190,7 @@ This section covers whether users have access to early access apps or not.
 ### Policy
 
 #### GWS.COMMONCONTROLS.18.1v0.2
-Early Access Apps Service Status SHOULD be set to OFF for everyone
+Early Access Apps Service Status SHOULD be set to OFF for everyone.
 
 - _Rationale_: Allowing access to early access apps could provide access to apps that are not needed which then creates a security risk. Disabling access to these apps mitigates that risk.
 - _Last modified:_ August 7, 2024
