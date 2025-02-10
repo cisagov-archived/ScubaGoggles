@@ -466,6 +466,9 @@ def dive():
         error = True
     except KeyboardInterrupt:
         print('\nUser interrupt')
+    except Exception as ex:
+        print("Unexpected error")
+        print(ex)
 
     if error:
         sys.exit(EXIT_FAILURE)
